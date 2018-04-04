@@ -4,7 +4,8 @@ padding: 0;
 }
 body {
 background-image: url(../img/matrix.jpg);
-background-color: #fff;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .header {
