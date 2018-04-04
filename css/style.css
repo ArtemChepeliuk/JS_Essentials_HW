@@ -24,6 +24,7 @@ main {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	flex-flow: column;
 }
 .button {
 	background-color: #4CAF50;
@@ -41,6 +42,12 @@ main {
 
 .button:hover {
 	transform: translateY(-5px);
-	transition: all 0.2s ease-in-out
+	transition: all 0.2s ease-in-out;
 	transition-duration: 0.2s;
+}
+.tasks {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
