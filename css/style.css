@@ -1,35 +1,45 @@
-body {
+*{
 margin: 0;
 padding: 0;
-background-image: url()
+}
+body {
+background-image: url(../img/matrix.jpg);
+background-color: #fff;
 }
 
 .header {
-	margin: 0 auto;
-	padding: 0 100px;
+	padding: 20px;
+	text-align: center;
 }
 h1{
-	color: #fff;
+	color: #00ff0a;
 	font-size: 50px;
 }
 a {
 	text-decoration: none;
-	
+	color: #89ff00;
+}
+main {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .button {
-	background-color: #fff;
-	  border: 1px solid #fff;
-	  border-radius: 5px;
-	  width: 350px;
-	  height: 200px;
-	  color: #cb5b25;
-	  margin: 15px 0;
-	  transition: all 0.2s ease-in-out;
-		box-shadow: 0 4px 30px 0 rgba(255, 255, 255, .1);
+	background-color: #4CAF50;
+	border: 2px solid #000;
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	margin: 15px;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0 4px 30px 0 rgba(141, 255, 0, 1);
+	display:  flex;
+	justify-content:  center;
+	align-items:  center;
 }
 
 .button:hover {
-	transform: translateY(-10px);
-  transition: all 0.2s ease-in-out;
-  transition-duration: 0.2s;
+	transform: translateY(-5px);
+	transition: all 0.2s ease-in-out
+	transition-duration: 0.2s;
 }
