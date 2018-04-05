@@ -6,16 +6,19 @@ function getValueHrivna(){
   console.log(hrivna);
   }
 // getValueHrivna();
+var resultHrivna = document.getElementById('resultHrivna')	
+ resultHrivna.value = getValueHrivna(); 
 
-document.getElementById("resultHrivna").value = getValueHrivna();
+
+// function getValueDollar(){
+//   var dollar = document.getElementById("dollar").value; 
+//   	dollar = dollar / 25.885;
+//   // document.getElementById("resultHrivna").innerHTML = hrivna;
+//   console.log(dollar);
+//   }
+// // getValueHrivna();
+
+// document.getElementById("resultDollar").value = getValueDollar();
 
 
-function getValueDollar(){
-  var dollar = document.getElementById("dollar").value; 
-  	dollar = dollar / 25.885;
-  // document.getElementById("resultHrivna").innerHTML = hrivna;
-  console.log(dollar);
-  }
-// getValueHrivna();
 
-document.getElementById("resultDollar").value = getValueDollar();
