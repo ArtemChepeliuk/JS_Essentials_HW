@@ -18,7 +18,7 @@ h1{
 }
 a {
 	text-decoration: none;
-	color: #89ff00;
+	color: #acffb1;
 }
 main {
 	display: flex;
@@ -27,7 +27,7 @@ main {
 	flex-flow: column;
 }
 .button {
-	background-color: #4CAF50;
+	background-color: #00b108;
 	border: 2px solid #000;
 	border-radius: 5px;
 	width: 100px;
@@ -50,4 +50,35 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 15px;
+	background-color: #00b108;
+	padding: 50px;
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+}
+input {
+	height: 50px;
+	font-size: 24px;
+	margin: 5px;
+	color: green;
+}
+.konvert_hrivna {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+}
+.konvert_dollar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
 }
