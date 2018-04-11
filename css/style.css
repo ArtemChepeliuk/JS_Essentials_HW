@@ -86,3 +86,11 @@ input {
 	justify-content: space-between;
 	flex-direction: column;
 }
+
+.condition {
+	background-color: green;
+	text-align: center;
+	font-size: 26px;
+	padding: 10px;
+	color: white;
+}
