@@ -23,14 +23,3 @@ var obj = {
 
 console.log(validator228(obj, arr));
 console.log(validator228(arrError, objError));
-
-
-
-// function validator228(){
-// 	for (i=0; i<arrKey.length; i++) {
-//   if (arrKey[i] !== arr[i]) {
-// 	return	console.log('EROR! ' + arrKey[i] + " wasn't passed on object..");
-// 	 }
-// 	}
-//   return true;
-// }
