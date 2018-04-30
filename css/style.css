@@ -1,35 +1,41 @@
-*{
-margin: 0;
-padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
+
 body {
-background-image: url(../img/matrix.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
+	background-image: url(../img/matrix.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .header {
 	padding: 20px;
 	text-align: center;
 }
-h1{
+
+h1 {
 	color: #00ff0a;
 	font-size: 50px;
 }
-h2{
+
+h2 {
 	color: #ffffff;
 	font-size: 30px;
 }
+
 a {
 	text-decoration: none;
 	color: #acffb1;
 }
+
 main {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	flex-flow: column;
 }
+
 .button {
 	background-color: #00b108;
 	border: 2px solid #000;
@@ -39,9 +45,9 @@ main {
 	margin: 15px;
 	transition: all 0.2s ease-in-out;
 	box-shadow: 0 4px 30px 0 rgba(141, 255, 0, 1);
-	display:  flex;
-	justify-content:  center;
-	align-items:  center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .button:hover {
@@ -49,13 +55,13 @@ main {
 	transition: all 0.2s ease-in-out;
 	transition-duration: 0.2s;
 }
+
 .tasks {
 	padding: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 
 .form {
 	display: flex;
@@ -68,18 +74,20 @@ main {
 	font-size: 24px;
 	font-weight: 700;
 }
+
 input {
 	height: 50px;
 	font-size: 24px;
 	margin: 5px;
 	color: green;
 }
+
 .konvert_hrivna {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-
 }
+
 .konvert_dollar {
 	display: flex;
 	align-items: center;
